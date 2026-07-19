@@ -1,0 +1,90 @@
+{
+  "endocrine": {
+    "candidate_features": [
+      "LH",
+      "FSH",
+      "LH_FSH_ratio",
+      "TESTO_TOTAL",
+      "TESTO_FREE",
+      "SHBG",
+      "FAI",
+      "DHEA_S",
+      "CORT_8",
+      "CORT_23",
+      "CORT_ratio_23_8"
+    ],
+    "primary_features_qc": [
+      "LH",
+      "FSH",
+      "LH_FSH_ratio",
+      "TESTO_TOTAL",
+      "TESTO_FREE",
+      "SHBG",
+      "FAI",
+      "DHEA_S",
+      "CORT_8",
+      "CORT_23",
+      "CORT_ratio_23_8"
+    ]
+  },
+  "metabolic": {
+    "candidate_features": [
+      "GLU0",
+      "GLU120",
+      "INS0",
+      "INS120",
+      "HOMA_IR",
+      "QUICKI",
+      "TyG",
+      "TCHOL",
+      "LDL",
+      "HDL",
+      "TG",
+      "TG_HDL_ratio",
+      "non_HDL"
+    ],
+    "primary_features_qc": [
+      "GLU0",
+      "GLU120",
+      "INS0",
+      "TCHOL",
+      "LDL",
+      "HDL",
+      "TG"
+    ]
+  },
+  "thyroid": {
+    "candidate_features": [
+      "TSH",
+      "FT4",
+      "ATA_TPO_log1p"
+    ],
+    "primary_features_qc": [
+      "TSH",
+      "FT4",
+      "ATA_TPO_log1p"
+    ]
+  },
+  "inflammatory": {
+    "candidate_features": [
+      "WBC",
+      "NEUT",
+      "LYMPH",
+      "MONO",
+      "PLT",
+      "NLR",
+      "PLR",
+      "LMR",
+      "SII",
+      "CRP"
+    ],
+    "primary_features_qc": [
+      "WBC",
+      "NEUT",
+      "LYMPH",
+      "PLT",
+      "NLR",
+      "PLR"
+    ]
+  }
+}
