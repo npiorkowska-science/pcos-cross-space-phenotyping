@@ -123,7 +123,6 @@ If you use this repository, please cite:
 
 *No single biological phenotype exists in polycystic ovary syndrome: evidence from cross-space phenotyping.*
 
-*Journal of Endocrinological Investigation.*
 
 ---
 
