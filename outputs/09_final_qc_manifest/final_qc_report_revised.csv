@@ -1,0 +1,8 @@
+check,status,detail
+within-space model QC,WARN,failing spaces: thyroid
+minimum stable spaces,PASS,3/4 spaces passed
+assignment uncertainty,PASS,all <=0.35
+same-space imputation stability,PASS,all >=0.50
+cross-space comparison exists,PASS,6 primary pairwise comparisons
+cross-space imputation artefact,PASS,no delta ARI >0.30
+biological validation signals,PASS,"{'endocrine': 9, 'inflammatory': 9, 'metabolic': 9, 'thyroid': 2}"

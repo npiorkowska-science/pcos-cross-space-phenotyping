@@ -1,0 +1,44 @@
+{
+  "green_light_for_manuscript_drafting": true,
+  "green_light_strength": "PASS_WITH_WARNINGS",
+  "warnings": [
+    "within-space model QC"
+  ],
+  "qc": [
+    {
+      "check": "within-space model QC",
+      "status": "WARN",
+      "detail": "failing spaces: thyroid"
+    },
+    {
+      "check": "minimum stable spaces",
+      "status": "PASS",
+      "detail": "3/4 spaces passed"
+    },
+    {
+      "check": "assignment uncertainty",
+      "status": "PASS",
+      "detail": "all <=0.35"
+    },
+    {
+      "check": "same-space imputation stability",
+      "status": "PASS",
+      "detail": "all >=0.50"
+    },
+    {
+      "check": "cross-space comparison exists",
+      "status": "PASS",
+      "detail": "6 primary pairwise comparisons"
+    },
+    {
+      "check": "cross-space imputation artefact",
+      "status": "PASS",
+      "detail": "no delta ARI >0.30"
+    },
+    {
+      "check": "biological validation signals",
+      "status": "PASS",
+      "detail": "{'endocrine': 9, 'inflammatory': 9, 'metabolic': 9, 'thyroid': 2}"
+    }
+  ]
+}
