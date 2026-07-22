@@ -1,0 +1,15 @@
+space,dropped_feature,n_overlap,n_features_after_drop,algorithm,k,bootstrap_ari_median,silhouette,min_cluster_frac,ARI_vs_primary,qc_pass_model,note
+endocrine,LH,1092,10,kmeans,2,,,,,True,LOO not used for decision; primary pre-specified QC used. Thyroid remains exploratory if small-cluster warning persists.
+endocrine,FSH,1092,10,kmeans,2,,,,,True,LOO not used for decision; primary pre-specified QC used. Thyroid remains exploratory if small-cluster warning persists.
+endocrine,LH_FSH_ratio,1092,10,kmeans,2,,,,,True,LOO not used for decision; primary pre-specified QC used. Thyroid remains exploratory if small-cluster warning persists.
+endocrine,TESTO_TOTAL,1092,10,kmeans,2,,,,,True,LOO not used for decision; primary pre-specified QC used. Thyroid remains exploratory if small-cluster warning persists.
+endocrine,TESTO_FREE,1092,10,kmeans,2,,,,,True,LOO not used for decision; primary pre-specified QC used. Thyroid remains exploratory if small-cluster warning persists.
+endocrine,SHBG,1092,10,kmeans,2,,,,,True,LOO not used for decision; primary pre-specified QC used. Thyroid remains exploratory if small-cluster warning persists.
+endocrine,FAI,1092,10,kmeans,2,,,,,True,LOO not used for decision; primary pre-specified QC used. Thyroid remains exploratory if small-cluster warning persists.
+endocrine,DHEA_S,1092,10,kmeans,2,,,,,True,LOO not used for decision; primary pre-specified QC used. Thyroid remains exploratory if small-cluster warning persists.
+endocrine,CORT_8,1092,10,kmeans,2,,,,,True,LOO not used for decision; primary pre-specified QC used. Thyroid remains exploratory if small-cluster warning persists.
+endocrine,CORT_23,1092,10,kmeans,2,,,,,True,LOO not used for decision; primary pre-specified QC used. Thyroid remains exploratory if small-cluster warning persists.
+endocrine,CORT_ratio_23_8,1092,10,kmeans,2,,,,,True,LOO not used for decision; primary pre-specified QC used. Thyroid remains exploratory if small-cluster warning persists.
+thyroid,TSH,1039,2,kmeans,2,,,,,False,LOO not used for decision; primary pre-specified QC used. Thyroid remains exploratory if small-cluster warning persists.
+thyroid,FT4,1039,2,kmeans,2,,,,,False,LOO not used for decision; primary pre-specified QC used. Thyroid remains exploratory if small-cluster warning persists.
+thyroid,ATA_TPO_log1p,1039,2,kmeans,2,,,,,False,LOO not used for decision; primary pre-specified QC used. Thyroid remains exploratory if small-cluster warning persists.
