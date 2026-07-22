@@ -1,0 +1,13 @@
+space,mode,n,algorithm,k,bootstrap_ari_median,silhouette,min_cluster_frac,share_uncertain,qc_pass_model
+endocrine,imputed,1286,kmeans,2.0,,0.32086001651054075,0.24727838258164853,,True
+endocrine,common,874,kmeans,2.0,,0.28203347275169993,0.26887871853546913,,True
+metabolic,imputed,1286,kmeans,2.0,,0.4068443149820392,0.21384136858475894,,True
+metabolic,common,874,kmeans,2.0,,0.3388612918114875,0.2803203661327231,,True
+thyroid,imputed,1286,kmeans,2.0,,0.7995857442541905,0.0583203732503888,,False
+thyroid,common,874,kmeans,2.0,,0.7870315299723057,0.059496567505720827,,False
+inflammatory,imputed,1286,kmeans,2.0,,0.5092623482512492,0.17418351477449456,,True
+inflammatory,common,874,kmeans,2.0,,0.3616306048017724,0.35354691075514877,,True
+endocrine,completecase_vs_imputed_same_space,1092,agreement_audit,,0.8719189654926125,,,,True
+metabolic,completecase_vs_imputed_same_space,1021,agreement_audit,,0.9149353781830022,,,,True
+thyroid,completecase_vs_imputed_same_space,1039,agreement_audit,,0.9916667385196103,,,,True
+inflammatory,completecase_vs_imputed_same_space,901,agreement_audit,,0.7372874312307177,,,,True
